@@ -51,7 +51,7 @@ body {
 }
 .services img {
     height: 300px;
-    width: auto;
+    width: 100%;
 }
 .article-image {
     background-color: #806748;
