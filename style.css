@@ -1,6 +1,6 @@
 body {
     width: 1080px;
-    height: 1920px;
+    height: 100hv;
     font-style: italic;
     /*height: 2560px;*/
     margin: 0 auto; /*margen que le estoy dando a la web completa*/
@@ -65,7 +65,6 @@ body {
 }
 .tittle {
     font-size: 2em;
-    
     margin-top: 5%;
 }
 .text {
