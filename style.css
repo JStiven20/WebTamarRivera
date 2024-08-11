@@ -26,6 +26,7 @@ body {
     justify-content: center; /*centra el contenido horizontalmente*/
     align-items: center; /*centra el contenido verticalmente*/
     border: none;
+    height: 100%;
 }
 
 .nav, .footer, .article-content {
