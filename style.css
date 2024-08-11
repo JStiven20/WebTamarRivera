@@ -1,6 +1,6 @@
 body {
-    width: 1080px;
-    height: 1920px;
+    max-width: 1080px;
+    height: 100vh;
     font-style: italic;
     /*height: 2560px;*/
     margin: 0 auto; /*margen que le estoy dando a la web completa*/
@@ -11,18 +11,16 @@ body {
     border-radius: 10%;
 }
 
-.nav, .section2, .section3, .section4, .article, .footer {
+.nav, .section1, .section2, .section3, .article, .footer {
     display: flex;
     margin: 0;
     width: 100%;
     justify-content: center;
     align-items: center;
-    border: 1px;
     border: none;
 }
 
-.column1, .column2, .column3, .column4, .column5, .column55, .column6 {
-    border: 1px solid black;
+.menu, .logo, .cart, .image-content, .slogan, .services, .article-image, .article-content, .footer-content {
     flex: 1;
     display: flex;
     justify-content: center; /*centra el contenido horizontalmente*/
@@ -30,48 +28,44 @@ body {
     border: none;
 }
 
-.nav, .footer, .column55 {
+.nav, .footer, .article-content {
     background-color: #efeeea; /* Color de fondo específico */
 }
 
-.column1 {
-    height: 40px;
-}
-.column1 h1 {
+
+.logo h1 {
     font-size: 20px;
     color: #d0ada3;
 }
-.column2 {
+.image-container {
     height: 450px;
     font-weight:normal;
 }
-.column3 {
+.slogan {
     background-color:#efeeea;
     height: 250px;
 }
-.column3 h2 {
+.slogan h2 {
     font-size: 60px;
     font-weight: normal;
 }
-.column4 {
+.services img {
     height: 300px;
 }
-.column5 {
+.article-image {
     background-color: #806748;
 }
-.column5, .column55 {
+.article-image, .article-content {
     height: 450px;
     flex-direction: column;
 }
 .tittle {
     font-size: 2em;
-    
     margin-top: 5%;
 }
 .text {
     font-size: 1em;
     line-height: 1.5;
-    justify-content: center;
     margin: 5%;
 }
 .column6 {
@@ -79,6 +73,6 @@ body {
 }
 img {
     max-width: 100%;
-    max-height: 100%; /* Altura automática para mantener la proporción */
+    height: auto; /* Altura automática para mantener la proporción */
     border-radius: 10px; /* Bordes redondeados */
 }
